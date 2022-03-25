@@ -1,0 +1,81 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Pippa-W.github.io/Minion/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Music score",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Music in the 16th and 19th Century",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Theme",
+  "sequences" : [ {
+    "@id" : "http://0ec4cce9-c682-4675-a50b-9eafd7e4bb12",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://a6740ff9-7c74-4576-b798-b8f82f2a4579",
+      "@type" : "sc:Canvas",
+      "label" : "1840 version",
+      "height" : 6324,
+      "width" : 4963,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://d062821a-8a5a-47cb-a808-67b40740ec36",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100054555440.0x000004/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100054555440.0x000004",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 6324,
+          "width" : 4963
+        },
+        "on" : "http://a6740ff9-7c74-4576-b798-b8f82f2a4579"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://8580a826-965b-47d9-aa25-718c0511be38",
+      "@type" : "sc:Canvas",
+      "label" : "16th Century version",
+      "height" : 6896,
+      "width" : 4762,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b3ae85f7-b730-45fd-b0a3-ef702b720359",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100100885107.0x000015/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100100885107.0x000015",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 6896,
+          "width" : 4762
+        },
+        "on" : "http://8580a826-965b-47d9-aa25-718c0511be38"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
